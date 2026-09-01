@@ -5,10 +5,10 @@ function getDB() {
     static $pdo = null;
     if ($pdo === null) {
         $host = getenv('DB_HOST') ?: 'localhost';
-        $port = getenv('DB_PORT') ?: '3307';
-        $db   = getenv('DB_NAME') ?: 'website_monitor';
-        $user = getenv('DB_USER') ?: 'root';
-        $pass = getenv('DB_PASS') ?: '12345';
+        $port = getenv('DB_PORT') ?: '3306';
+        $db   = getenv('DB_NAME') ?: 'synergy1_zhiqi_website_monitor';
+        $user = getenv('DB_USER') ?: 'yenping@kolejsynergy.com';
+        $pass = getenv('DB_PASS') ?: 'R.zb0ZwEuGZ}*fW2';
         $charset = 'utf8mb4';
 
         $dsn = "mysql:host=$host;port=$port;dbname=$db;charset=$charset";
