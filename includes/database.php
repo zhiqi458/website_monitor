@@ -7,7 +7,7 @@ function getDB() {
         $host = getenv('DB_HOST') ?: 'localhost';
         $port = getenv('DB_PORT') ?: '3306';
         $db   = getenv('DB_NAME') ?: 'synergy1_zhiqi_website_monitor';
-        $user = getenv('DB_USER') ?: 'yenping@kolejsynergy.com';
+        $user = getenv('DB_USER') ?: 'synergy1_yenping';
         $pass = getenv('DB_PASS') ?: 'R.zb0ZwEuGZ}*fW2';
         $charset = 'utf8mb4';
 
